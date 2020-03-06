@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".\bootstrap-4.4.1-dist\css\bootstrap.css">
+</head>
+
+<body>
+    <h1></h1>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-capitalize text-center">Wellcome for the War</h1>
+            <h2 class="text-capitalize text-center">Create your Player select your civilization and fight</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="card" id="player1">
+                    <div class="card-header">
+                        <h4 class="text-center">Create player 1</h4>
+                    </div>
+                    <input type="text" id="player1" placeholder="Player one" class="form-control">
+                    <select id="civilization-player1" class="form-control">
+                        <option value="">Select your civilization</option>
+                        <option value="English">English</option>
+                        <option value="Chinese">Chinese</option>
+                        <option value="Bizantine">Bizantine</option>
+                    </select>
+                    <input type="submit" value="Create player">
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form class="card" id="player2">
+                    <div class="card-header">
+                        <h4 class="text-center">Create player 2</h4>
+                    </div>
+                    <input type="text" id="player2" placeholder="Player two" class="form-control">
+                    <select id="civilization-player2" class="form-control">
+                        <option value="">Select your civilization</option>
+                        
+                    </select>
+                    <input type="submit" value="Create player">
+                </form>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 15px;">
+            <div class="col-md-8 offset-md-2">
+                <form id="formTraining" class="card">
+                    <div class="card-header">
+                        <h4 class="text-center">Training </h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row" style="margin-top: 15px;">
+                            <div class="col-12">
+                                <select class="form-control" id="playerForTrainnig">
+                            <option value="">Select your Player</option>
+                        </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h5 class="text-center">Pikeman</h5>
+                                <input class="form-control" type="text" id="pikeman">
+                            </div>
+                            <div class="col-md-2">
+                                <h5 class="text-center">Cost</h5>
+                                <h6 class="text-center">Convert to</h6>
+                            </div>
+                            <div class="col-md-5">
+                                <h5 class="text-center">Archer</h5>
+                                <input class="form-control" type="text" id="archertraining">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h5 class="text-center">Archer</h5>
+                                <input class="form-control" type="text" id="archer">
+                            </div>
+                            <div class="col-md-2">
+                                <h5 class="text-center">Cost</h5>
+                                <h6 class="text-center">Convert to</h6>
+                            </div>
+                            <div class="col-md-5">
+                                <h5 class="text-center">Knight</h5>
+                                <input class="form-control" type="text" id="knightTraining">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <h5 class="text-center">total</h5>
+                                <input disabled type="text" id="treaseurecost" class="form-control">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+
+                        <div class="row" style="margin-top: 15px;">
+                            <div class="col-md-12">
+                                <input type="submit" class="d-block mx-auto" value="Buy">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--<script src="index.js"></script>-->
+    <script src="testing.js"></script>
+</body>
+
+</html>
